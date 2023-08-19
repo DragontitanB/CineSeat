@@ -1,0 +1,91 @@
+<!-- login -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/Estilos/StyleLogin.css" />
+    <link rel="icon" href="/IMG/Icono.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <!--header-->
+    <header>
+      <h2 class="logo">CineSeat</h2>
+      <nav class="navigation">
+        <button class="btnlogin-popup">Login</button>
+      </nav>
+    </header>
+
+    <!--Pagina de inicio de sesion-->
+    <div class="wrapper">
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="Recordar">
+            <label><input type="checkbox" /> Save Password</label>
+            <a href="#">Forgot the password</a>
+          </div>
+          <button type="submit" class="btn" >
+            Login
+          </button>
+          <div class="login-register">
+            <p>
+              Create new Account?<a href="#" class="register-link"> list </a>
+            </p>
+          </div>
+        </form>
+      </div>
+
+      <!--Pagina de la lista-->
+      <div class="form-box register">
+        <h2>List</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="person"></ion-icon></span>
+            <input type="text" required />
+            <label>Username</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="Recordar">
+            <label><input type="checkbox" /> Save Account</label>
+          </div>
+          <button type="submit" class="btn">Create Account</button>
+          <div class="login-register">
+            <p>Old Account <a href="#" class="login-link"> Login </a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="/Script/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

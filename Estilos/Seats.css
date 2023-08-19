@@ -1,0 +1,27 @@
+/* Estilos para la selección de asientos */
+.seating-area {
+    text-align: center;
+    padding: 20px;
+}
+
+.seat-map {
+    display: inline-block;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+.seat {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #a1e87c;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #ff7675;
+}
