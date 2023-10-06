@@ -1,5 +1,4 @@
 # CineSeat
-2022-0150
 <a name="readme-top"></a>
 <!-- PROJECT LOGO -->
 <br />
